@@ -11,5 +11,24 @@
 
     <artifactId>mail-search-api</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.qf</groupId>
+            <artifactId>mail-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <resources>
+            <resource>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+                <directory>src/main/java</directory>
+            </resource>
+        </resources>
+    </build>
 
 </project>

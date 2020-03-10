@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MailProject.iml" filepath="$PROJECT_DIR$/.idea/MailProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-basic.iml" filepath="$PROJECT_DIR$/mail-basic/mail-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-cart/mail-cart.iml" filepath="$PROJECT_DIR$/mail-web/mail-cart/mail-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-cart-api/mail-cart-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-cart-api/mail-cart-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-cart-service/mail-cart-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-cart-service/mail-cart-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-common/mail-common.iml" filepath="$PROJECT_DIR$/mail-basic/mail-common/mail-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-email-service/mail-email-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-email-service/mail-email-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-entity/mail-entity.iml" filepath="$PROJECT_DIR$/mail-basic/mail-entity/mail-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-index/mail-index.iml" filepath="$PROJECT_DIR$/mail-web/mail-index/mail-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-index-service/mail-index-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-index-service/mail-index-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-mapper/mail-mapper.iml" filepath="$PROJECT_DIR$/mail-basic/mail-mapper/mail-mapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-product/mail-product.iml" filepath="$PROJECT_DIR$/mail-web/mail-product/mail-product.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-product-api/mail-product-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-product-api/mail-product-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-product-service/mail-product-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-product-service/mail-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-product-type-api/mail-product-type-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-product-type-api/mail-product-type-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-resources-api/mail-resources-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-resources-api/mail-resources-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-search/mail-search.iml" filepath="$PROJECT_DIR$/mail-web/mail-search/mail-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-search-api/mail-search-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-search-api/mail-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-search-service/mail-search-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-search-service/mail-search-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-sms-service/mail-sms-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-sms-service/mail-sms-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-sso/mail-sso.iml" filepath="$PROJECT_DIR$/mail-web/mail-sso/mail-sso.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-staticresource-service/mail-staticresource-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-staticresource-service/mail-staticresource-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mail-user-api/mail-user-api.iml" filepath="$PROJECT_DIR$/mall-api/mail-user-api/mail-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-service/mail-user-service/mail-user-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-user-service/mail-user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-web.iml" filepath="$PROJECT_DIR$/mail-web/mail-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mall-api/mall-api.iml" filepath="$PROJECT_DIR$/mall-api/mall-api.iml" />
+    </modules>
+  </component>
+</project>

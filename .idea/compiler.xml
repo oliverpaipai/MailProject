@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mail-cart" />
+        <module name="mail-cart-api" />
+        <module name="mail-cart-service" />
+        <module name="mail-common" />
+        <module name="mail-email-service" />
+        <module name="mail-entity" />
+        <module name="mail-index" />
+        <module name="mail-index-service" />
+        <module name="mail-mapper" />
+        <module name="mail-product" />
+        <module name="mail-product-api" />
+        <module name="mail-product-service" />
+        <module name="mail-product-type-api" />
+        <module name="mail-resources-api" />
+        <module name="mail-search" />
+        <module name="mail-search-api" />
+        <module name="mail-search-service" />
+        <module name="mail-service" />
+        <module name="mail-sms-service" />
+        <module name="mail-sso" />
+        <module name="mail-staticresource-service" />
+        <module name="mail-user-api" />
+        <module name="mail-user-service" />
+        <module name="mail-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mail-basic" target="1.8" />
+      <module name="mail-cart" target="1.8" />
+      <module name="mail-cart-api" target="1.8" />
+      <module name="mail-cart-service" target="1.8" />
+      <module name="mail-common" target="1.8" />
+      <module name="mail-email-service" target="1.8" />
+      <module name="mail-entity" target="1.8" />
+      <module name="mail-index" target="1.8" />
+      <module name="mail-index-service" target="1.8" />
+      <module name="mail-mapper" target="1.8" />
+      <module name="mail-product" target="1.8" />
+      <module name="mail-product-api" target="1.8" />
+      <module name="mail-product-service" target="1.8" />
+      <module name="mail-product-type-api" target="1.8" />
+      <module name="mail-resources-api" target="1.8" />
+      <module name="mail-search" target="1.8" />
+      <module name="mail-search-api" target="1.8" />
+      <module name="mail-search-service" target="1.8" />
+      <module name="mail-service" target="1.8" />
+      <module name="mail-sms-service" target="1.8" />
+      <module name="mail-sso" target="1.8" />
+      <module name="mail-staticresource-service" target="1.8" />
+      <module name="mail-user-api" target="1.8" />
+      <module name="mail-user-service" target="1.8" />
+      <module name="mail-web" target="1.8" />
+      <module name="mall-api" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mail-cart" options="-parameters" />
+      <module name="mail-cart-service" options="-parameters" />
+      <module name="mail-email-service" options="-parameters" />
+      <module name="mail-index" options="-parameters" />
+      <module name="mail-index-service" options="-parameters" />
+      <module name="mail-product" options="-parameters" />
+      <module name="mail-product-service" options="-parameters" />
+      <module name="mail-search" options="-parameters" />
+      <module name="mail-search-service" options="-parameters" />
+      <module name="mail-sms-service" options="-parameters" />
+      <module name="mail-sso" options="-parameters" />
+      <module name="mail-staticresource-service" options="-parameters" />
+      <module name="mail-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
