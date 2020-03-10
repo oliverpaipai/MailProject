@@ -1,20 +1,21 @@
+
 server:
-  port: 8081
+  port: 8083
 dubbo:
   application:
-    name: cart-service
+    name: index-service
   registry:
     address: zookeeper://119.3.164.67:2181
   protocol:
-    port: 20885
+    port: 20882
 spring:
   redis:
     host: 119.3.164.67
     port: 6379
-    password:
     jedis:
       pool:
         max-active: 20
+    password:
   datasource:
     url: jdbc:mysql://119.3.164.67:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root

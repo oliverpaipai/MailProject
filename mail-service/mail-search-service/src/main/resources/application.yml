@@ -1,21 +1,25 @@
+
 server:
-  port: 8081
+  port: 8085
 dubbo:
   application:
-    name: cart-service
+    name: search-service
   registry:
     address: zookeeper://119.3.164.67:2181
   protocol:
-    port: 20885
+    port: 20884
 spring:
-  redis:
-    host: 119.3.164.67
-    port: 6379
-    password:
-    jedis:
-      pool:
-        max-active: 20
+  data:
+    solr:
+      host: http://119.3.164.67:8983/solr/ik_core
   datasource:
     url: jdbc:mysql://119.3.164.67:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
     password: root
+  rabbitmq:
+    host: 119.3.164.67
+    port: 5672
+    username:
+    password:
+    virtual-host:
+imageServer: http://119.3.164.67:8888

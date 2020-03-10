@@ -1,0 +1,23 @@
+spring:
+  rabbitmq:
+    host: 119.3.164.67
+    port: 5672
+    username: java1906
+    password: 123456
+    virtual-host: j1906
+  redis:
+    host: 119.3.164.67
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 20
+  mail:
+    host: smtp.qq.com
+    username:
+    password:
+    default-encoding: utf-8
+server:
+  port: 8082
+
+
