@@ -5,8 +5,3 @@ dubbo:
     name: index-consumer
   registry:
     address: zookeeper://119.3.164.67:2181
-
-thymeleaf:
-  mode: HTML5
-  cache: false
-  encoding: UTF-8
