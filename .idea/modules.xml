@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-common/mail-common.iml" filepath="$PROJECT_DIR$/mail-basic/mail-common/mail-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-service/mail-email-service/mail-email-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-email-service/mail-email-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-entity/mail-entity.iml" filepath="$PROJECT_DIR$/mail-basic/mail-entity/mail-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail-web/mail-index/mail-index.iml" filepath="$PROJECT_DIR$/mail-web/mail-index/mail-index.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-service/mail-index-service/mail-index-service.iml" filepath="$PROJECT_DIR$/mail-service/mail-index-service/mail-index-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-basic/mail-mapper/mail-mapper.iml" filepath="$PROJECT_DIR$/mail-basic/mail-mapper/mail-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/mail-web/mail-product/mail-product.iml" filepath="$PROJECT_DIR$/mail-web/mail-product/mail-product.iml" />
