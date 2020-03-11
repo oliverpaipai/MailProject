@@ -1,1 +1,8 @@
 
+server:
+  port: 8092
+dubbo:
+  application:
+    name: cart-consumer
+  registry:
+    address: zookeeper://119.3.164.67:2181
