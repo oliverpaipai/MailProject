@@ -12,7 +12,6 @@
         <module name="mail-common" />
         <module name="mail-email-service" />
         <module name="mail-entity" />
-        <module name="mail-index" />
         <module name="mail-index-service" />
         <module name="mail-mapper" />
         <module name="mail-product" />
@@ -40,7 +39,6 @@
       <module name="mail-common" target="1.8" />
       <module name="mail-email-service" target="1.8" />
       <module name="mail-entity" target="1.8" />
-      <module name="mail-index" target="1.8" />
       <module name="mail-index-service" target="1.8" />
       <module name="mail-mapper" target="1.8" />
       <module name="mail-product" target="1.8" />
@@ -66,7 +64,6 @@
       <module name="mail-cart" options="-parameters" />
       <module name="mail-cart-service" options="-parameters" />
       <module name="mail-email-service" options="-parameters" />
-      <module name="mail-index" options="-parameters" />
       <module name="mail-index-service" options="-parameters" />
       <module name="mail-product" options="-parameters" />
       <module name="mail-product-service" options="-parameters" />

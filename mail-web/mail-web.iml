@@ -4,16 +4,6 @@
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/mail-cart/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-cart/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-index/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-index/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-product/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-product/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-search/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-search/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-sso/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/mail-sso/src/main/resources" type="java-resource" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />

@@ -32,17 +32,7 @@
             <version>8.0.17</version>
         </dependency>
 
-        <dependency>
-            <groupId>com.qf</groupId>
-            <artifactId>mail-mapper</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
-        <dependency>
-            <groupId>com.qf</groupId>
-            <artifactId>mail-cart-api</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
 
         <dependency>
             <groupId>com.alibaba.boot</groupId>
