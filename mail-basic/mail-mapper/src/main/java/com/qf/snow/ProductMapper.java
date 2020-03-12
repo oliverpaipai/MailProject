@@ -5,6 +5,6 @@ import com.qf.entity.TProduct;
 
 import java.util.List;
 
-public interface ProductMapper extends IBaseDao<TProduct> {
+public interface ProductMapper {
     List<TProduct> selectAll();
 }

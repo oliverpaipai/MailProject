@@ -10,15 +10,12 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 @Service
 @Component
-public class ProductServiceImpl extends BaseServiceImpl<TProduct> implements IProductService{
+public class ProductServiceImpl implements IProductService{
 
     @Autowired
     private ProductMapper dao;
 
-    @Override
-    public IBaseDao<TProduct> getBaseDao() {
-        return dao;
-    }
+
 
     @Override
     public List<TProduct> selectAll() {

@@ -3,26 +3,25 @@ package com.qf.snow.controller;
 import com.alibaba.dubbo.config.annotation.Reference;
 import com.qf.entity.TProduct;
 import com.qf.snow.IProductService;
+import com.qf.snow.ProductMapper;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
-
 @Controller
 @RequestMapping("hh")
 public class ProductController {
 
     @Reference
-    private IProductService productService;
+    private IProductService dao;
 
     @RequestMapping("tt")
-    public String show(){
+    @ResponseBody
+    public List<TProduct> show(){
 
-        List<TProduct> tProducts = productService.selectAll();
-        for (TProduct tProduct : tProducts) {
-            System.out.println(tProduct+"xxx");
-        }
+        return dao.selectAll();
 
-        return "ok";
+
     }
 }

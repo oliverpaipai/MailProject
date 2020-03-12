@@ -61,21 +61,4 @@
       <module name="mall-api" target="1.8" />
     </bytecodeTargetLevel>
   </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="mail-cart" options="-parameters" />
-      <module name="mail-cart-service" options="-parameters" />
-      <module name="mail-email-service" options="-parameters" />
-      <module name="mail-index" options="-parameters" />
-      <module name="mail-index-service" options="-parameters" />
-      <module name="mail-product" options="-parameters" />
-      <module name="mail-product-service" options="-parameters" />
-      <module name="mail-search" options="-parameters" />
-      <module name="mail-search-service" options="-parameters" />
-      <module name="mail-sms-service" options="-parameters" />
-      <module name="mail-sso" options="-parameters" />
-      <module name="mail-staticresource-service" options="-parameters" />
-      <module name="mail-user-service" options="-parameters" />
-    </option>
-  </component>
 </project>

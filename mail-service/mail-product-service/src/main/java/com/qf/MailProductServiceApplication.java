@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-@MapperScan("com.qf.snow")
+@MapperScan(basePackages = "com.qf.snow")
 public class MailProductServiceApplication {
 
     public static void main(String[] args) {

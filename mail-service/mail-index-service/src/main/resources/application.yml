@@ -15,7 +15,7 @@ spring:
     jedis:
       pool:
         max-active: 20
-    password:
+    password: java1909
   datasource:
     url: jdbc:mysql://119.3.164.67:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root

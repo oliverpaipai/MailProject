@@ -123,4 +123,23 @@ public class TProduct implements Serializable {
     public void setUpdateUser(Long updateUser) {
         this.updateUser = updateUser;
     }
+
+
+    @Override
+    public String toString() {
+        return "TProduct{" +
+                "pid=" + pid +
+                ", pname='" + pname + '\'' +
+                ", price=" + price +
+                ", salePrice=" + salePrice +
+                ", typeId=" + typeId +
+                ", status=" + status +
+                ", pimage='" + pimage + '\'' +
+                ", flag=" + flag +
+                ", createTime=" + createTime +
+                ", updateTime=" + updateTime +
+                ", createUser=" + createUser +
+                ", updateUser=" + updateUser +
+                '}';
+    }
 }
