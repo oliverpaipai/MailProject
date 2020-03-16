@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qf.mapper.TProductDescMapper">
+
+    <resultMap id="BaseResultMap" type="com.qf.entity.TProductDesc">
+        <id column="id" jdbcType="BIGINT" property="id" />
+        <result column="pid" jdbcType="BIGINT" property="pid" />
+        <result column="flag" jdbcType="TINYINT" property="flag" />
+        <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+        <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+        <result column="create_user" jdbcType="BIGINT" property="createUser" />
+        <result column="update_user" jdbcType="BIGINT" property="updateUser" />
+    </resultMap>
+    <!--//通过物品pid查询物品详细信息-->
+    <!--TProductDesc selectByPid(Long pid);-->
+    <select id="selectByPid" parameterType="java.lang.Long" resultType="com.qf.entity.TProductDesc">
+        SELECT * FROM t_product_desc WHERE pid=#{pid}
+    </select>
+
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultType="com.qf.entity.TProductDesc">
+        SELECT * FROM t_product_desc id=#{id}
+    </select>
+    
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        DELETE FROM t_product_desc WHERE id=#{id}
+    </delete>
+
+    <update id="updateByPrimaryKey" parameterType="com.qf.entity.TProductDesc">
+    update t_product_desc
+      set pid = #{pid,jdbcType=BIGINT},
+        flag = #{flag,jdbcType=TINYINT},
+        create_time = #{createTime,jdbcType=TIMESTAMP},
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+        create_user = #{createUser,jdbcType=BIGINT},
+        update_user = #{updateUser,jdbcType=BIGINT}
+    where id = #{id,jdbcType=BIGINT}
+    </update>
+
+    <insert id="insert" parameterType="com.qf.entity.TProductDesc">
+    insert into t_product_desc (id, pid, flag,
+      create_time, update_time, create_user,
+      update_user, pdesc)
+    values (#{id,jdbcType=BIGINT}, #{pid,jdbcType=BIGINT}, #{flag,jdbcType=TINYINT},
+      #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, #{createUser,jdbcType=BIGINT},
+      #{updateUser,jdbcType=BIGINT}, #{pdesc,jdbcType=LONGVARCHAR})
+    </insert>
+
+
+
+    <update id="updateDescPid" parameterType="java.util.Map">
+        UPDATE t_product_desc
+        SET
+         pdesc=#{pdesc}
+        WHERE pid=#{pid}
+    </update>
+
+    <delete id="deleteDescPid" parameterType="java.lang.Long">
+        DELETE FROM t_product_desc WHERE pid=#{pid}
+    </delete>
+</mapper>
