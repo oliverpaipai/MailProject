@@ -1,0 +1,19 @@
+spring:
+  rabbitmq:
+    host: 119.3.164.67
+    port: 5672
+    username: rabbit
+    password: 123456
+    virtual-host: j1906
+  redis:
+    host: 119.3.164.67
+    port: 6379
+    password: java1909
+    jedis:
+      pool:
+        max-active: 20
+sms:
+  account: C04960674
+  password: e5d3caf58aa9478dd6de0db327e1d556
+  http_url: http://106.ihuyi.com/webservice/sms.php?method=Submit
+  tplId: 1

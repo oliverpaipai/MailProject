@@ -8,6 +8,8 @@ dubbo:
     address: zookeeper://119.3.164.67:2181
   protocol:
     port: 20883
+  provider:
+    timeout: 50000
 
 spring:
   datasource:
@@ -24,7 +26,7 @@ spring:
   rabbitmq:
     host: 119.3.164.67
     port: 5672
-    username:
-    password:
-    virtual-host:
-activeAccountServer: http://119.3.164.67:8086/email/active?uuid=
+    username: rabbit
+    password: 123456
+    virtual-host: j1906
+activeAccountServer: http://localhost:8086/email/active?uuid=

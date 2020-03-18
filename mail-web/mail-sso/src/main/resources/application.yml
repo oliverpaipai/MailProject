@@ -6,17 +6,19 @@ dubbo:
     name: sso-consumer
   registry:
     address: zookeeper://119.3.164.67:2181
+  consumer:
+    timeout: 50000
 spring:
   redis:
     host: 119.3.164.67
     port: 6379
-    password:
+    password: java1909
     jedis:
       pool:
         max-active: 10
   rabbitmq:
     host: 119.3.164.67
     port: 5672
-    username:
-    password:
-    virtual-host:
+    username: rabbit
+    password: 123456
+    virtual-host: j1906

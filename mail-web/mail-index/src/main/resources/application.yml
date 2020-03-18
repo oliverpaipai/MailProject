@@ -4,4 +4,6 @@ dubbo:
   application:
     name: index-consumer
   registry:
-    address: zookeeper://192.168.12.17:2181
+    address: zookeeper://119.3.164.67:2181
+  consumer:
+    timeout: 50000

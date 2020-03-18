@@ -8,6 +8,8 @@ dubbo:
     address: zookeeper://119.3.164.67:2181
   protocol:
     port: 20882
+  provider:
+    timeout: 50000
 spring:
   redis:
     host: 119.3.164.67
@@ -16,6 +18,7 @@ spring:
       pool:
         max-active: 20
     password: java1909
+    timeout: 5000
   datasource:
     url: jdbc:mysql://119.3.164.67:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
