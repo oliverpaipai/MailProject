@@ -1,7 +1,13 @@
 server:
   port: 8089
+spring:
+  data:
+    solr:
+      host: http://119.3.164.67:8983/solr/ik_core
 dubbo:
   application:
     name: search-consumer
+  consumer:
+    timeout: 50000
   registry:
     address: zookeeper://119.3.164.67:2181
