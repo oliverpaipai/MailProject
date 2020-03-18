@@ -1,4 +1,4 @@
-package com.qf.mailemailservice;
+package com.qf.service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
