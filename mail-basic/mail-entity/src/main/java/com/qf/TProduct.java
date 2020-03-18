@@ -1,4 +1,4 @@
-package com.qf.entity;
+package com.qf;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -8,9 +8,9 @@ public class TProduct implements Serializable {
 
     private String pname;
 
-    private Long price;
+    private double price;
 
-    private Long salePrice;
+    private double salePrice;
 
     private Long typeId;
 
@@ -44,19 +44,19 @@ public class TProduct implements Serializable {
         this.pname = pname == null ? null : pname.trim();
     }
 
-    public Long getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(Long price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public Long getSalePrice() {
+    public double getSalePrice() {
         return salePrice;
     }
 
-    public void setSalePrice(Long salePrice) {
+    public void setSalePrice(double salePrice) {
         this.salePrice = salePrice;
     }
 

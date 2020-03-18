@@ -1,4 +1,4 @@
-package com.qf.entity;
+package com.qf;
 
 import java.io.Serializable;
 import java.util.Date;
